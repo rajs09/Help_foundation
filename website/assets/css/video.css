@@ -1,0 +1,32 @@
+.wrapper{
+  background-color: #eee;
+  height: 100%;
+}
+.heading{
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 2.5;
+  font-family: big john;
+  color: #eee;
+  background: linear-gradient(black,#1a285a);
+}
+h2{
+  padding: 20px;
+  text-align: center;
+  font-family: verdana;
+  font-size: 15px;
+  color: darked;
+  text-transform: capitalize;
+}
+.video{
+  text-align: center;
+  padding: 10px;
+}
+.content{
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-family: verdana;
+}

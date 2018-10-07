@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<!-- Widget Code --> <script type="text/javascript">((function(){ var load=function(){ var script="https://s.acquire.io/a-66e51/init.js?full"; var x=document.createElement('script'); x.src=script;x.async=true; var sx=document.getElementsByTagName('script')[0]; sx.parentNode.insertBefore(x, sx); }; if(document.readyState === "complete") load(); else if (window.addEventListener) window.addEventListener('load',load,false); else if (window.attachEvent) { window.attachEvent("onload", load); } })())</script> <noscript><a href="https://www.acquire.io?welcome" title="live chat software">Acquire</a></noscript> <!-- / Widget Code -->
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+						<style>
+       /* Set the size of the div element that contains the map */
+      #map {
+				border-style: double;
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="donate.html">Donations</a></li>
+							<li><a href="register.html">Volunteer</a></li>
+							<li><a href="contactus.html">Contact Us</a></li>
+						</ul>
+					</nav>
+
+					<div id="main">
+						<div class="inner">
+								<h1>Contact Us</h1>
+								<html>
+								<head>
+								<title>Contact Us</title>
+								<style type="text/css">
+								   #content{
+								   	width: 50%;
+								   	margin: 20px auto;
+								   	border: 1px solid #cbcbcb;
+								   }
+								   form{
+								   	width: 50%;
+								   	margin: 20px auto;
+								   }
+								   form div{
+								   	margin-top: 5px;
+								   }
+								   #img_div{
+								   	width: 80%;
+								   	padding: 5px;
+								   	margin: 15px auto;
+								   	border: 1px solid #cbcbcb;
+								   }
+								   #img_div:after{
+								   	content: "";
+								   	display: block;
+								   	clear: both;
+								   }
+								   img{
+								   	float: left;
+								   	margin: 5px;
+								   	width: 300px;
+								   	height: 140px;
+								   }
+									 #map{
+										 border-style: solid;
+    						 		 border-width: 5px;
+										 margin-left:70px;
+										 height:500px;
+										 width:90%;
+
+									 }
+								</style>
+			</head>
+			<body>
+			</div>
+			<h3 style="margin-left:70px">How to reach us...</h3>
+			    <!--The div element for the map -->
+			    <div id="map"></div>
+			    <script>
+
+					window.onload = function() {
+  var startPos;
+  var geoSuccess = function(position) {
+    startPos = position;
+    document.getElementById('startLat').innerHTML = startPos.coords.latitude;
+    document.getElementById('startLon').innerHTML = startPos.coords.longitude;
+  };
+  navigator.geolocation.getCurrentPosition(geoSuccess);
+};
+			// Initialize and add the map
+
+		function initMap() {
+
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 10,
+				center: {lat:19.097697, lng: 72.842471}
+			});
+
+			// Create an array of alphabetical characters used to label the markers.
+			var labels = '12345';
+
+			// Add some markers to the map.
+			// Note: The code uses the JavaScript Array.prototype.map() method to
+			// create an array of markers based on a given "locations" array.
+			// The map() method here has nothing to do with the Google Maps API.
+			var markers = locations.map(function(location, i) {
+				return new google.maps.Marker({
+					position: location,
+					label: "Centre "+labels[i % labels.length]
+				});
+			});
+
+			// Add a marker clusterer to manage the markers.
+			var markerCluster = new MarkerClusterer(map, markers,
+					{imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+		}
+		var locations = [
+			{lat: 19.097697, lng: 72.842471},
+			{lat: 19.234384, lng: 72.853368},
+			{lat: 19.100000, lng: 72.998849}
+		]
+	</script>
+	<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+	</script>
+	<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxlwo-TyRGc-A6kgi3esrCNNy2HF2kQoU&callback=initMap">
+	</script>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<!-- Footer -->
+			<br>
+
+				<h3 style="margin-left:70px;">OUR CENTRES:</h3>
+				<div style="padding:15px">
+				<div style="float:left;margin-left:70px;padding:15px">
+				<p>
+					104, Sunrise Arcade, Plot No. 100,
+					<br>
+					Sector 16, Koparkhairane,
+					<br>
+					Navi Mumbai - 400709
+			</p>
+		</div>
+				<div style="padding:15px">
+					<p>
+						Sodawala Ln<br>
+Himmat Nagar, Borivali West<br>
+Mumbai, Maharashtra 400091<br>
+					</p>
+				</div>
+			</div>
+	</body>
+				<footer id="footer">
+					<div class="inner">
+						<ul class="copyright">
+							<li>&copy; Untitled. All rights reserved</li>
+						</ul>
+					</div>
+				</footer>
+</html>
