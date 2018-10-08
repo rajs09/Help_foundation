@@ -11,3 +11,9 @@ Main Features of our Web Application:
 4) Volunteer registration form for the people want to join to the organization.
 
 5) Inspirational Video,Articles,Survivor Stories and quotes for Users to understand how had suicide is and how to overcome it.
+
+### Contributors
+
+- [Neel Shah](https://github.com/deadpanther)
+- [Raj Sanghavi](https://github.com/rajs09)
+- [Raj Veera](https://github.com/veeraraj18)
