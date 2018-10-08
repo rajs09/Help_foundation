@@ -4,9 +4,9 @@ Main Features of our Web Application:
 
 1) Donation through PayPal for donors to donate to the organization created using PayPal API.
 
-2) Asks for User location to show user nearby centres and to send immediate help to the user in problem.
+2) Asks for User location to show user nearby centres and to send immediate help to the user in problem using Maps API.
 
-3) Live Chat,Instant call and video call feature  to the user to solve user problems and with the use of video call feature users can feel and understand better so that user can prevent any gruesome act.
+3) Live Chat,Instant call and video call feature  to the user to solve user problems and with the use of video call feature users can feel and understand better so that user can prevent any gruesome act using Acquire API.
 
 4) Volunteer registration form for the people want to join to the organization.
 
